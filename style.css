@@ -9,7 +9,11 @@
 }
 
 body{
-    background-color: #000000;
+    background-image:url("Assets/Sky\ BG.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* NAVIGATION BAR */
@@ -128,20 +132,6 @@ li{
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-}
-
-.typewriter{
-    position: relative;
-}
-
-.typewriter::after{
-    content: '|';
-    position: absolute;
-    right: 0;
-    color:#0d0047;
-    width: 100%;
-    background-color: #000000;
-    animation: typing 2.5s steps(30) alternate infinite;
 }
 
 @keyframes typing{
