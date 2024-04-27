@@ -235,6 +235,7 @@ li{
     display: flex;
     justify-content: end;
     margin-right: 15px;
+    color: #ffffff;
 }
 
 .skill-quote2 q{
@@ -250,6 +251,7 @@ li{
     display: flex;
     justify-content: flex-start;
     margin-left: 50px;
+    color: #ffffff;
 }
 
 /* SECTION 3 (GALLERY) */
