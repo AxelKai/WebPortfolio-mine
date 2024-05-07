@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image:url("Assets/Sky\ BG.gif");
+    background-image:url(Assets/inazuma\ bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -25,7 +25,7 @@ nav{
 }
 
 .navigation-bar{
-    background-color: #0d0047;
+    background-color: #420047;
     padding: 5px;
     margin: 0;
     height: 70px;
@@ -60,16 +60,16 @@ li{
 }
 
 .nav-list a:hover{
-    color: #0d0047;
-    border-top: 6px solid #0d0047;
-    border-bottom: 6px solid #0d0047;
+    color: #420047;
+    border-top: 6px solid #420047;
+    border-bottom: 6px solid #420047;
     animation-delay: 3s;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .nav-list a{
-    color: #a6a6a6;
+    color: #420047;
     text-decoration-line: none;
     padding: 2px;
     border-radius: 4px;
@@ -267,15 +267,16 @@ li{
 
 .gallery img{
     margin: auto;
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:start;
     width: 825px;
 }
 
 /* SECTION 4 (CONTACT)*/
 #section-contact{
-    height: 100vh;
+    height: 130vh;
     padding-top: 70px;
+    align-content: end;
 }
 
 .contact h2{
@@ -301,7 +302,7 @@ legend{
 
 /* FOOTER */
 .main-footer{
-    background-color: #0d0047;
+    background-color: #420047;
     height: 60px;
     padding: 0px;
     margin: 0;
