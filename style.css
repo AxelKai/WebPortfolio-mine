@@ -60,16 +60,16 @@ li{
 }
 
 .nav-list a:hover{
-    color: #420047;
-    border-top: 6px solid #420047;
-    border-bottom: 6px solid #420047;
+    color: #000000;
+    border-top: 6px solid #000000;
+    border-bottom: 6px solid #000000;
     animation-delay: 3s;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .nav-list a{
-    color: #420047;
+    color: #000000;
     text-decoration-line: none;
     padding: 2px;
     border-radius: 4px;
